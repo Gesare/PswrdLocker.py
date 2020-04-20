@@ -188,8 +188,7 @@ def main():
                 
         
         elif short_code == 'dc':
-               print('\n')
-            if display_credential():
+             if display_credential():
                 print("Here there is a list of all your credentials")
                 
                 for credentials in display_credential():
