@@ -175,7 +175,7 @@ def main():
 
                 save_credential(create_credentials(account_Name,site_Name,user_name,e_mail,password)) #create and save new credentials.
                 print('\n')
-                print(f"New Credentials {account_Name} {site_Name} {user_name} {e_mail} created and saved")
+                print(f"This are the new credentials  {account_Name} ,{site_Name} ,{user_name}, {e_mail} created and saved")
                 print('\n')
             
                          
