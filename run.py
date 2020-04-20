@@ -106,11 +106,11 @@ def main():
     print('\n')
     while True:
         print("Use these short codes:")
-        print("ct -create a new user account.... lg - login...... ad - add the credentials.... dy - display credentials.... cp - copy the credentials.... dl - delete credentials.... ex - exit the password locker")
+        print("ca -create a new user account.... lg - login...... ad - add the credentials.... dc- display credentials.... cp - copy the credentials.... dl - delete credentials.... ex - exit the password locker")
                         
         short_code = input().lower()
                   
-        if short_code == 'ct':
+        if short_code == 'ca':
             
             
             print("New User")
@@ -165,13 +165,13 @@ def main():
                             
             
             print("\n")
-            print("Use this short_code: gn - if you want system to generate password for you, or use cc - to create your own password")
+            print("Would you like us to generate a password for you: (Y(yes)/N (no))")
             
             choice = input().lower()
-            if choice == 'gn':
-                print("Random password generated for you")
-                print ("First Random Alphanumeric password is ", get_random_alphaNumeric_string(8) )
-                print ("Second Random Alphanumeric password is ", get_random_alphaNumeric_string(8) )
+            if choice == 'Y':
+                print("We have provided two  Random Alphanumeric passwords you can choose from:")
+                print ("The first password is ", get_random_alphaNumeric_string(8) )
+                print ("The second password is ", get_random_alphaNumeric_string(8) )
 
                 save_credential(create_credentials(account_Name,site_Name,user_name,e_mail,password)) #create and save new credentials.
                 print('\n')
@@ -187,14 +187,13 @@ def main():
                 print('\n')
                 
         
-        elif short_code == 'dy':
-            
+        elif short_code == 'dc':
+               print('\n')
             if display_credential():
                 print("Here there is a list of all your credentials")
-                print('\n')
                 
                 for credentials in display_credential():
-                    print(f"{credentials.accountName} {credentials.siteName} {credentials.username} {credentials.email} {credentials.password}")
+                    print(f"These are account details:{credentials.accountName} {credentials.siteName} {credentials.username} {credentials.email} {credentials.password}")
                     print('\n')
 
         elif short_code == 'cp':
