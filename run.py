@@ -217,8 +217,9 @@ def main():
                 
             
                 if del_credentials(credentials):
-                    print("account has successfully deleted")
-    
+                    print("Account has successfully deleted")
+                    print('\n')
+
         elif short_code == 'ex':
             print("Bye .......")
             break
