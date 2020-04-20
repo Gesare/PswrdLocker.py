@@ -36,7 +36,7 @@ I test my project using Python3.6
 
 ## Technologies Used
 * Python 3.6
-* Visual Studio (texter)
+* Visual Studio (text-editor)
 * Terminal
 
 ## Support and contact details
