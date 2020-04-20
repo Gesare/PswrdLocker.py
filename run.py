@@ -142,7 +142,7 @@ def main():
                 print(f"{searched_email.username} {searched_email.email}")
                 print('-'*30)
                 print('\n')
-                print('Thank you for logging in')
+                print('Thank you for logging in..')
 
             else:
                 print('the email does not exist')
