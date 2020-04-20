@@ -189,7 +189,7 @@ def main():
         
         elif short_code == 'dc':
              if display_credential():
-                print("Here there is a list of all your credentials")
+                print("Here are the details to your accounts:")
                 
                 for credentials in display_credential():
                     print(f"These are account details:{credentials.accountName} {credentials.siteName} {credentials.username} {credentials.email} {credentials.password}")
