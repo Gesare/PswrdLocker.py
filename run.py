@@ -102,7 +102,7 @@ def main():
     print("Welcome to your Password Locker Application!") 
     print("What is your name?")
     user_name = input()
-    print(f"Hello dear,{user_name}. what would you like to do?")
+    print(f"Hello , {user_name}. What would you like to do?")
     print('\n')
     while True:
         print("Use these short codes:")
