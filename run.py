@@ -161,10 +161,10 @@ def main():
             print("Email ...")
             e_mail = input()
                             
-            # print("password ...")
+            
             print("\n")
             print("Use this short_code: gn - if you want system to generate password for you, or use cc - to create your own password")
-            # password = input()
+            
             choice = input().lower()
             if choice == 'gn':
                 print("Random password generated for you")
