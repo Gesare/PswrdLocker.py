@@ -107,7 +107,7 @@ def main():
         print("Use these short codes: ct -create a new user account.... lg - login...... ad - add the credentials.... dy - display credentials.... cp - copy the credentials.... dl - delete credentials.... ex - exit the password locker")
                         
         short_code = input().lower()
-        print('\n')            
+                  
         if short_code == 'ct':
             
             
@@ -199,7 +199,7 @@ def main():
             print ('Copy the credentials')
             print('-'*20)
             print('\n')
-            print('enter email of the credentials you want to copy')
+            print('Enter email of the credentials you want to copy')
             searched_email = input()
             print(check_existing_credentials(searched_email))
 
