@@ -14,11 +14,11 @@ Run run.py when you want to implement the features we have just have been testin
 ## Running unittests
 Run python3.6 plus test file where you are adding the test function.
 
-## Setup/Installation 
-* 
-* A web browser eg Chrome,Firefox....
-* Search and open the webpage in Google search engine using the above URL link
-* Internet Connection 
+## Input Examples
+* Username
+* Email address
+* Password
+Search and open the webpage in Google search engine using the above URL link
 
 ## BDD Behaviour
 We want our application to:
@@ -31,14 +31,17 @@ We want our application to:
 * As a user, I would like to be able to copy my credentials to the clipboard.
 * As a user, I would also like to dictate the length of the password I generate.
 
+## TDD
+I test my project using Python3.6
+
 ## Technologies Used
 * Python 3.6
 * Visual Studio (texter)
 * Terminal
 
-
 ## Support and contact details
 If you may need more information please contact the me through Gesare@gmail.com.
+
 ### License
 Copyright (c) [2020] [PswrdLocker-py] Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
