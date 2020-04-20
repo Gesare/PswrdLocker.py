@@ -99,12 +99,14 @@ def get_random_alphaNumeric_string(stringLength=8):
 
 def main():
     
-    print("Welcome to Password Locker Application! what is your name?")
+    print("Welcome to Password Locker Application!") 
+    print("What is your name?")
     user_name = input()
     print(f"Hello {user_name}. what would you like to do?")
     print('\n')
     while True:
-        print("Use these short codes: ct -create a new user account.... lg - login...... ad - add the credentials.... dy - display credentials.... cp - copy the credentials.... dl - delete credentials.... ex - exit the password locker")
+        print("Use these short codes:")
+        print("ct -create a new user account.... lg - login...... ad - add the credentials.... dy - display credentials.... cp - copy the credentials.... dl - delete credentials.... ex - exit the password locker")
                         
         short_code = input().lower()
                   
