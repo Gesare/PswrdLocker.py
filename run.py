@@ -225,7 +225,7 @@ def main():
             print("Bye .......")
             break
         else:
-            print("I didn`t get that. Please use the short codes")
+            print("Please choice an option below")
                                               
 if __name__ == '__main__':
     main()                         
