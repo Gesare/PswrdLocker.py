@@ -3,7 +3,7 @@
 
 ## Description
 This is an amazing application that will help us manage our passwords and even generate new passwords for us.
-This project was generated with PYTHON version 3.6 I also install the pyperclip with this command python3.6 -m pip install pyperclip to illustrates how to download a third party module.
+This project was generated with PYTHON version 3.6 
 
 ## Development Server
 Run python3.6 in Terminal to see the code and remember to add the file after it and see your test.
